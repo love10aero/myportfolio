@@ -1,0 +1,124 @@
+{
+    "basics": {
+      "name": "Lovejinder Singh",
+      "label": "Software Developer",
+      "image": "/squarepict.jpeg",
+      "email": "lovesinghkaur96@gmail.com",
+      "phone": "+34 699 79 14 59",
+      "url": "lovejindersingh.dev",
+      "summary": "Experienced Software Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Proficient in an assortment of technologies, including Python, Django, Javascript, React and SQL.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Barcelona",
+        "countryCode": "ES",
+        "region": "Spain"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "Lovejinder Singh",
+          "url": "https://linkedin.com/in/lovejindersingh"
+        },
+        {
+          "network": "GitHub",
+          "username": "love10aero",
+          "url": "https://github.com/love10aero"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "DMD Solutions",
+        "position": "SW Team Leader",
+        "url": "",
+        "startDate": "2022-01-01",
+        "endDate": "Present",
+        "summary": "Effectively led a skilled team of software developers...",
+        "highlights": [
+          "Led the product development of Robin RAMS",
+          "Implemented cost-optimization initiatives in AWS infrastructure"
+        ]
+      },
+      {
+        "name": "DMD Solutions",
+        "position": "Full Stack Developer",
+        "url": "",
+        "startDate": "2019-07-01",
+        "endDate": "Present",
+        "summary": "Front-End & Back-End development of Robin RAMS in Django framework",
+        "highlights": [
+          "Optimized both front-end and back-end code"
+        ]
+      },
+      {
+        "name": "Vueling Airlines S.A.",
+        "position": "Flight Operations Technical - Intern",
+        "startDate": "2018-02-01",
+        "endDate": "2019-06-01",
+        "summary": "",
+        "highlights": ["aa"]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Universitat Politècnica de Catalunya",
+        "area": "Air Navigation Engineering",
+        "studyType": "Bachelor",
+        "startDate": "2023-02-01",
+        "endDate": "2023-08-01"
+      },
+      {
+        "institution": "Universitat Politècnica de Catalunya",
+        "area": "Aeronautical Engineering",
+        "studyType": "Master",
+        "startDate": "2023-02-01",
+        "endDate": "2023-05-01"
+      }
+    ],
+    "projects": [
+        {
+        "name": "AdventJS",
+        "isActive": true,
+        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+        "highlights": [
+          "+1 millón de visitas",
+          "Multidioma",
+          "JavaScript & TypeScript"
+        ],
+        "url": "https://adventjs.dev"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming",
+        "level": "Advanced",
+        "keywords": [
+          "Python", "Django", "Javascript", "React", "SQL", "AWS", "Docker", "Git", "Bitbucket Pipelines", "RESTful API"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Proficient"
+      },
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "Catalan",
+        "fluency": "Proficient"
+      },
+      {
+        "language": "Hindi",
+        "fluency": "Basic"
+      },
+      {
+        "language": "Punjabi",
+        "fluency": "Native speaker"
+      }
+    ]
+  }
+  
