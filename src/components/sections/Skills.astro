@@ -12,6 +12,7 @@ import GitHub from "@/icons/GitHub.astro"
 import Tailwind from "@/icons/tailwind.astro"
 import Next from "@/icons/next.astro"
 import { skills } from "@cv"
+import i18n from '../../locales/en.json';
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -28,7 +29,7 @@ const SKILLS_ICONS: Record<string, any> = {
 }
 ---
 
-<Section id="skills" title="Habilidades">
+<Section id="skills" title=`${i18n.skills.title}`>
   <ul>
     {
       skills.map(({ name }) => {

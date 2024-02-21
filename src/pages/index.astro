@@ -9,12 +9,12 @@ import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/Skills.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
 import Sidebar from "@/components/Sidebar.astro"
+import i18n from '../locales/en.json';
 
 import { basics } from "@cv"
 const { name, label } = basics
 ---
-
-<Layout title={`Portafolio de ${name} - ${label}`}>
+<Layout title={`${i18n.portfolioof.title} ${name} - ${label}`}>
   <Sidebar />
   <main>
     <Hero />

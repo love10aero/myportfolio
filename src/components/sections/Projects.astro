@@ -3,9 +3,10 @@ import GitHub from "@/icons/GitHub.astro"
 import Section from "../Section.astro"
 
 import { projects } from "@cv"
+import i18n from '../../locales/en.json';
 ---
 
-<Section id="projects" title="Proyectos">
+<Section id="projects" title=`${i18n.projects.title}`>
   <ul>
     {
       projects.map(

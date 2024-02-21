@@ -2,9 +2,10 @@
 import Section from "../Section.astro"
 
 import { education } from "@cv"
+import i18n from '../../locales/en.json';
 ---
 
-<Section id="education" title="Educación">
+<Section id="education" title=`${i18n.education.title}`>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {

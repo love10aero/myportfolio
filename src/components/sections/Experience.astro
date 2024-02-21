@@ -2,9 +2,10 @@
 import Section from "../Section.astro"
 
 import { work } from "@cv"
+import i18n from '../../locales/en.json';
 ---
 
-<Section id="experience" title="Experiencia laboral">
+<Section id="experience" title=`${i18n.experience.title}`>
   <ul>
     {
       work.map(
@@ -20,7 +21,7 @@ import { work } from "@cv"
                 <header>
                   <div>
                     <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
+                      <a href={url} title={`${i18n.see.title} ${name}`} target="_blank">
                         {name}
                       </a>
                     </h3>

@@ -2,10 +2,12 @@
 import Section from "../Section.astro"
 
 import { basics } from "@cv"
+
+import i18n from '../../locales/en.json';
 const { summary } = basics
 ---
 
-<Section id="about" title="Sobre mí">
+<Section id="about" title=`${i18n.about.title}`>
   <p>
     {summary}
   </p>
