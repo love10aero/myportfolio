@@ -6,7 +6,7 @@
       "email": "lovesinghkaur96@gmail.com",
       "phone": "+34 699 79 14 59",
       "url": "lovejindersingh.dev",
-      "summary": "Experienced Software Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Proficient in an assortment of technologies, including Python, Django, Javascript, React and SQL.",
+      "summary": "Experienced Software Developer adept in all stages of advanced web development. Knowledgeable in user interface, testing, and debugging processes. Bringing forth expertise in design, installation, testing and maintenance of web systems. Proficient in an assortment of technologies, including Python, Django, Javascript, React and SQL. Able to effectively self-manage during independent projects, as well as collaborate in a team setting. Demonstrated an ability to quickly adapt to leadership roles and effectively manage projects from inception to completion. Ready to start a new adventure and surf through the challenges.",
       "location": {
         "address": "",
         "postalCode": "",
@@ -33,7 +33,6 @@
         "position": "SW Team Leader",
         "url": "",
         "startDate": "2022-01-01",
-        "endDate": "Present",
         "summary": "Effectively led a skilled team of software developers...",
         "highlights": [
           "Led the product development of Robin RAMS",
@@ -45,7 +44,6 @@
         "position": "Full Stack Developer",
         "url": "",
         "startDate": "2019-07-01",
-        "endDate": "Present",
         "summary": "Front-End & Back-End development of Robin RAMS in Django framework",
         "highlights": [
           "Optimized both front-end and back-end code"
@@ -63,30 +61,49 @@
     "education": [
       {
         "institution": "Universitat Politècnica de Catalunya",
-        "area": "Air Navigation Engineering",
+        "area": "BSc Air Navigation Engineering",
         "studyType": "Bachelor",
-        "startDate": "2023-02-01",
-        "endDate": "2023-08-01"
+        "startDate": "2015-08-01",
+        "endDate": "2019-02-01"
       },
       {
         "institution": "Universitat Politècnica de Catalunya",
-        "area": "Aeronautical Engineering",
+        "area": "MSc Aeronautical Engineering",
         "studyType": "Master",
-        "startDate": "2023-02-01",
-        "endDate": "2023-05-01"
+        "startDate": "2019-02-01",
+        "endDate": "2021-05-01"
+      },
+      {
+        "institution": " Nuclio Digital School, Barcelona",
+        "area": "Master in Data Science & AI",
+        "studyType": "Master",
+        "startDate": "2022-09-01",
+        "endDate": "2023-03-01"
       }
     ],
     "projects": [
         {
-        "name": "AdventJS",
+        "name": "DineDash",
         "isActive": true,
-        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+        "description": "Developed a restaurant management software with a robust Express.js API backend and a dynamic React.js frontend.",
         "highlights": [
-          "+1 millón de visitas",
-          "Multidioma",
-          "JavaScript & TypeScript"
+          "Backend & FrontEnd development",
+          "Express & React",
+          "PostgreSQL",
+          "Docker & AWS"
         ],
-        "url": "https://adventjs.dev"
+        "url": "https://adventjs.dev",
+        "github": "https://github.com/love10aero/dinedash"
+      },
+      {
+        "name": "Classpip",
+        "isActive": false,
+        "description": "Improve the functionality of a gamification tool",
+        "highlights": [
+          "Angular",
+          "Typescript"
+        ],
+        "github": "https://github.com/classpip/classpip"
       }
     ],
     "skills": [
