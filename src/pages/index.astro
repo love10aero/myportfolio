@@ -12,9 +12,11 @@ import Sidebar from "@/components/Sidebar.astro"
 import i18n from '../locales/en.json';
 
 import { basics } from "@cv"
+import { translate } from "./i8n";
 const { name, label } = basics
+const portf = translate('en', 'sourceCodeTitle.title', { name })
 ---
-<Layout title={`${i18n.portfolioof.title} ${name} - ${label}`}>
+<Layout title={`${portf} ${name} - ${label}`}>
   <Sidebar />
   <main>
     <Hero />
@@ -41,3 +43,4 @@ const { name, label } = basics
     }
   }
 </style>
+@/pages/i8n

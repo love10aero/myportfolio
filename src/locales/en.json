@@ -25,6 +25,9 @@
     },
     "see": {
       "title": "See"
+    },
+    "sourceCodeTitle": {
+      "title": "View source code of the project {{name}}"
     }
 
   }
