@@ -5,43 +5,42 @@ import { work } from "@cv"
 import i18n from '../../locales/en.json';
 ---
 
-<Section id="experience" title=`${i18n.experience.title}`>
+<Section id="experience" title={i18n.experience.title} style="text-align: justify; text-justify: inter-word;">
   <ul>
-    {
-      work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          const years = `${startYear} - ${endYear}`
+    {work.map(({ name, startDate, endDate, position, summary, highlights, url }) => {
+      const startYear = new Date(startDate).getFullYear();
+      const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
+      const years = `${startYear} - ${endYear}`;
 
-          return (
-            <li>
-              <article>
-                <header>
-                  <div>
-                    <h3>
-                      <a href={url} title={`${i18n.see.title} ${name}`} target="_blank">
-                        {name}
-                      </a>
-                    </h3>
-                    <h4>{position}</h4>
-                  </div>
+      return (
+        <li>
+          <article>
+            <header>
+              <div>
+                <h1 style="font-size: x-large; display: inline-flexbox; font-weight: bold">{position} <p style="font-size: large; display: inline-flexbox">{name}</p></h1>
+              </div>
 
-                  <time>{years}</time>
-                </header>
+              <time>{years}</time>
+            </header>
 
-                <footer>
-                  <p>{summary}</p>
-                </footer>
-              </article>
-            </li>
-          )
-        }
-      )
-    }
+            <footer>
+              <p style="text-align: justify; text-justify: inter-word; font-size: medium; font-weight: bold;">{summary}</p>
+              {/* Agregar los aspectos destacados */}
+              <ul>
+                {highlights.map((highlight, index) => (
+                  <li key={index}>{highlight}</li>
+                ))}
+              </ul>
+            </footer>
+            
+          </article>
+          <hr />
+        </li>
+      );
+    })}
   </ul>
 </Section>
+
 
 <style>
   ul {
@@ -68,6 +67,23 @@ import i18n from '../../locales/en.json';
     font-weight: 400;
   }
 
+  /* Estilos para los aspectos destacados */
+article footer ul {
+  margin-top: 5px; /* Espacio superior */
+  padding-left: 20px; /* Sangría a la izquierda */
+}
+
+article footer ul li {
+  list-style-type: upper-roman; /* Utilizar bullets */
+  color: #555; /* Color del texto */
+  margin-bottom: 0px; /* Espacio inferior */
+}
+
+ul[data-astro-cid-ghubstuj] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
   header {
     display: flex;
     justify-content: space-between;

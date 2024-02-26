@@ -33,20 +33,31 @@
         "position": "SW Team Leader",
         "url": "",
         "startDate": "2022-01-01",
-        "summary": "Effectively led a skilled team of software developers...",
+        "summary": "Effectively led a skilled team of software developers, optimizing task allocation and tracking team activities to ensure alignment between individual ambitions and project objectives, resulting in enhanced project delivery and successful completion of key software initiatives",
         "highlights": [
-          "Led the product development of Robin RAMS",
-          "Implemented cost-optimization initiatives in AWS infrastructure"
+          "Conducted biannual performance reviews for team members, providing constructive feedback on the past six months and collaboratively developing goal-oriented plans for the upcoming six months.",
+          "Led the product development of Robin RAMS, refining the product roadmap to align with market trends and customer needs.",
+          "As the Product Owner of the company’s internal ERP tool, spearheaded the development of features that integrated various departments, substantially enhancing cross-departmental workflows and reducing invoicing delays by 65%.",
+          "Served as Scrum Master, endorsing agile methodologies within the team and conducting approximately 25 sprints annually.",
+          "Drove strategic stakeholder meetings to align with corporate objectives.",
+          "Revolutionized system infrastructure by implementing high-availability solutions in AWS, achieving 99.9% system uptime.",
+          "Enhanced AWS EC2 deployment efficiency through automation and dockerization, reducing deployment times by 40%.",
+          "Implemented a pre-production environment with Bitbucket Pipelines, reducing by 60% the bugs reported in production after new deployments.",
+          "Strategically implemented cost-optimization initiatives in AWS infrastructure, achieving a significant 34% reduction in operational costs."
         ]
+      
       },
       {
         "name": "DMD Solutions",
         "position": "Full Stack Developer",
         "url": "",
         "startDate": "2019-07-01",
-        "summary": "Front-End & Back-End development of Robin RAMS in Django framework",
+        "summary": "Front-End & Back-End development of Tailored-made Softwares",
         "highlights": [
-          "Optimized both front-end and back-end code"
+          "Front-End & Back-End development of Robin RAMS in Django framework (Python, HTML, Javascript & CSS)",
+          "Maintenance Process Digitization Project for a Swiss Aerospace Company",
+          "Optimized both front-end and back-end code by applying advanced data structures and efficiency algorithms, significantly reducing loading time from 120 seconds to 6 seconds. This achievement was marked by a thorough analysis of computational complexity and strategic enhancements, showcasing a deep understanding of algorithmic optimization and system performance improvement.",
+          "Automations of the company's processes though the implementation of new modules in the companies' ERP tool."
         ]
       },
       {
@@ -55,7 +66,7 @@
         "startDate": "2018-02-01",
         "endDate": "2019-06-01",
         "summary": "",
-        "highlights": ["aa"]
+        "highlights": []
       }
     ],
     "education": [
@@ -92,19 +103,41 @@
           "PostgreSQL",
           "Docker & AWS"
         ],
-        "url": "https://adventjs.dev",
         "github": "https://github.com/love10aero/dinedash"
       },
       {
         "name": "Classpip",
         "isActive": false,
-        "description": "Improve the functionality of a gamification tool",
+        "description": "Participated in a project to improve the functionality of a gamification tool",
         "highlights": [
           "Angular",
           "Typescript"
         ],
         "github": "https://github.com/classpip/classpip"
+      },
+      {
+        "name": "Aircraft Defect Prediction Project",
+        "isActive": false,
+        "description": "Innovative project predicts aircraft defects, reducing maintenance costs and extending lifespan. Utilizes diverse machine learning models and data integration for 85% accuracy.",
+        "highlights": [
+          "Machine Learning",
+          "Neural Networks",
+          "Data Integration",
+          "Predictive Analytics"
+        ]
+      },
+      {
+        "name": "Basic Flutter App",
+        "isActive": false,
+        "description": "Developed a basic Flutter app connected to a Django API",
+        "highlights": [
+          "Flutter",
+          "Django"
+        ],
+        "github": "https://github.com/love10aero/love_flutter_app"
       }
+      
+      
     ],
     "skills": [
       {

@@ -14,16 +14,19 @@ import i18n from '../locales/en.json';
 import { basics } from "@cv"
 import { translate } from "./i8n";
 const { name, label } = basics
-const portf = translate('en', 'sourceCodeTitle.title', { name })
+const portf = translate('en', 'portfolioof.title', { name })
 ---
 <Layout title={`${portf} ${name} - ${label}`}>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- <Sidebar /> -->
   <main>
     <Hero />
     <About />
     <Experience />
-    <Education />
     <Projects />
+    <Education />
     <Skills />
   </main>
 
@@ -35,6 +38,7 @@ const portf = translate('en', 'sourceCodeTitle.title', { name })
     padding: 4rem;
     margin: auto;
     width: 100%;
+    font-family: 'Montserrat';
   }
 
   @media (width <= 700px) {
