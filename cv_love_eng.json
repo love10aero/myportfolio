@@ -143,7 +143,7 @@
     ],
     "skills": [
       {
-        "name": "Programming",
+        "name": "HTML",
         "level": "Advanced",
         "keywords": [
           "Python", "Django", "Javascript", "React", "SQL", "AWS", "Docker", "Git", "Bitbucket Pipelines", "RESTful API"
@@ -158,7 +158,47 @@
     ],
     "programmingskills": [
       {
+        "name": "HTML",
+        "level": "Advanced"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Advanced"
+      },
+      {
         "name": "Python",
+        "level": "Advanced"
+      },
+      {
+        "name": "Django",
+        "level": "Advanced"
+      },
+      {
+        "name": "CSS",
+        "level": "Advanced"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "Advanced"
+      },
+      {
+        "name": "React",
+        "level": "Advanced"
+      },
+      {
+        "name": "Tailwind",
+        "level": "Advanced"
+      },
+      {
+        "name": "UnitTests",
+        "level": "Advanced"
+      },
+      {
+        "name": "Docker",
+        "level": "Advanced"
+      },
+      {
+        "name": "ScikitLearn",
         "level": "Advanced"
       }
     ],
