@@ -118,13 +118,12 @@
         "github": "https://github.com/classpip/classpip"
       },
       {
-        "name": "Aircraft Defect Prediction Project",
+        "name": "Aircraft Defect Prediction",
         "isActive": false,
         "description": "Innovative project predicts aircraft defects, reducing maintenance costs and extending lifespan. Utilizes diverse machine learning models and data integration for 85% accuracy.",
         "highlights": [
           "Machine Learning",
           "Neural Networks",
-          "Data Integration",
           "Predictive Analytics"
         ]
       },
@@ -153,6 +152,34 @@
     "softskills": [
       {
         "name": "Communication",
+        "level": "Advanced"
+      },
+      {
+        "name": "Teamwork",
+        "level": "Advanced"
+      },
+      {
+        "name": "Leadership",
+        "level": "Advanced"
+      },
+      {
+        "name": "Problem Solving",
+        "level": "Advanced"
+      },
+      {
+        "name": "Creativity",
+        "level": "Advanced"
+      },
+      {
+        "name": "Time Management",
+        "level": "Advanced"
+      },
+      {
+        "name": "Adaptability",
+        "level": "Advanced"
+      },
+      {
+        "name": "Presentation Capacity",
         "level": "Advanced"
       }
     ],
@@ -195,6 +222,10 @@
       },
       {
         "name": "Docker",
+        "level": "Advanced"
+      },
+      {
+        "name": "AWS",
         "level": "Advanced"
       },
       {

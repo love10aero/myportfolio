@@ -10,6 +10,11 @@ import MySQL from "@/icons/sql.astro"
 import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
 import Tailwind from "@/icons/tailwind.astro"
+import Communication from "@/icons/communication.astro"
+import Teamwork from "@/icons/teamwork.astro"
+import ProblemSolving from "@/icons/problemsolving.astro"
+import PresentationCapacity from "@/icons/presentation.astro"
+import TimeManagement from "@/icons/time.astro"
 import Next from "@/icons/next.astro"
 import { softskills } from "@cv"
 import i18n from '../../locales/en.json';
@@ -26,6 +31,11 @@ const SKILLS_ICONS: Record<string, any> = {
   GitHub,
   Next,
   Tailwind,
+  Communication,
+  Teamwork,
+  ProblemSolving,
+  PresentationCapacity,
+  TimeManagement,
 }
 ---
 
@@ -33,7 +43,7 @@ const SKILLS_ICONS: Record<string, any> = {
   <ul>
     {
       softskills.map(({ name }) => {
-        const iconName = name === "Next.js" ? "Next" : name
+        const iconName = name === "Next.js" ? "Next" : name.replace(" ", "")
         const Icon = SKILLS_ICONS[iconName]
 
         return (
@@ -59,7 +69,7 @@ const SKILLS_ICONS: Record<string, any> = {
     border-radius: 6px;
     color: black;
     display: flex;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     font-weight: 500;
     gap: 4px;
     padding: 0.2rem 0.6rem;
