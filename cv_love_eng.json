@@ -44,8 +44,8 @@
           "Enhanced AWS EC2 deployment efficiency through automation and dockerization, reducing deployment times by 40%.",
           "Implemented a pre-production environment with Bitbucket Pipelines, reducing by 60% the bugs reported in production after new deployments.",
           "Strategically implemented cost-optimization initiatives in AWS infrastructure, achieving a significant 34% reduction in operational costs."
-        ]
-      
+        ],
+        "color": "#6bc0ea"
       },
       {
         "name": "DMD Solutions",
@@ -58,15 +58,17 @@
           "Maintenance Process Digitization Project for a Swiss Aerospace Company",
           "Optimized both front-end and back-end code by applying advanced data structures and efficiency algorithms, significantly reducing loading time from 120 seconds to 6 seconds. This achievement was marked by a thorough analysis of computational complexity and strategic enhancements, showcasing a deep understanding of algorithmic optimization and system performance improvement.",
           "Automations of the company's processes though the implementation of new modules in the companies' ERP tool."
-        ]
+        ],
+        "color": "#6bc0ea"
       },
       {
         "name": "Vueling Airlines S.A.",
         "position": "Flight Operations Technical - Intern",
         "startDate": "2018-02-01",
         "endDate": "2019-06-01",
-        "summary": "",
-        "highlights": []
+        "summary": "Calculation of Performance tables for the airline's fleet: Take-off & Landing with PEP (Performance Engineer's Programs) and FlySmart (EFB)",
+        "highlights": ["Automations of daily tasks of the department using Excel Macros and python scripts"],
+        "color": "#ffcc00"
       }
     ],
     "education": [
@@ -146,6 +148,18 @@
         "keywords": [
           "Python", "Django", "Javascript", "React", "SQL", "AWS", "Docker", "Git", "Bitbucket Pipelines", "RESTful API"
         ]
+      }
+    ],
+    "softskills": [
+      {
+        "name": "Communication",
+        "level": "Advanced"
+      }
+    ],
+    "programmingskills": [
+      {
+        "name": "Python",
+        "level": "Advanced"
       }
     ],
     "languages": [

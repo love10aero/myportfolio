@@ -28,6 +28,12 @@
     },
     "sourceCodeTitle": {
       "title": "View source code of the project {{name}}"
+    },
+    "softskills": {
+      "title": "Soft Skills"
+    },
+    "programmingSkills": {
+      "title": "Programming Skills"
     }
 
   }

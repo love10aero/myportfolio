@@ -3,6 +3,7 @@ import 'hotkeypad/reset.css'
 import 'hotkeypad/index.css'
 import { type SocialIcon } from "@/types"
 import { basics } from "@cv"
+import { translate } from "../pages/i8n";
 
 const { profiles } = basics
 
@@ -59,7 +60,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
 ---
 
 <footer id="normal-footer" class="no-print">
-  Pulsa <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
+  <!-- Pulsa <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la paleta de comandos. -->
+  <!-- in engglish -->
+  Press <kbd>Cmd</kbd> / <kbd>Ctrl</kbd> + <kbd>K</kbd> to open the command palette.
 </footer>
 
 <div id="footer-button" class="no-print">

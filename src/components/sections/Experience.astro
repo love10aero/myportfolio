@@ -7,7 +7,7 @@ import i18n from '../../locales/en.json';
 
 <Section id="experience" title={i18n.experience.title} style="text-align: justify; text-justify: inter-word;">
   <ul>
-    {work.map(({ name, startDate, endDate, position, summary, highlights, url }) => {
+    {work.map(({ name, startDate, endDate, position, summary, highlights, url, color }) => {
       const startYear = new Date(startDate).getFullYear();
       const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
       const years = `${startYear} - ${endYear}`;
@@ -17,8 +17,9 @@ import i18n from '../../locales/en.json';
           <article>
             <header>
               <div>
-                <h1 style="font-size: x-large; display: inline-flexbox; font-weight: bold">{position} <p style="font-size: large; display: inline-flexbox">{name}</p></h1>
+                <h1 style="font-size: x-large; display: inline-flexbox; font-weight: bold">{position} <p style={`font-size: large; display: inline-flexbox; color: ${color}`}>{name}</p></h1>
               </div>
+
 
               <time>{years}</time>
             </header>
@@ -74,7 +75,7 @@ article footer ul {
 }
 
 article footer ul li {
-  list-style-type: upper-roman; /* Utilizar bullets */
+  list-style-type: square; /* Utilizar bullets */
   color: #555; /* Color del texto */
   margin-bottom: 0px; /* Espacio inferior */
 }
