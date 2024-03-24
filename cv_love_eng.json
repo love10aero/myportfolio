@@ -108,6 +108,26 @@
         "github": "https://github.com/love10aero/dinedash"
       },
       {
+        "name": "My Tasker",
+        "isActive": true,
+        "description": "Created an app to manage my tasks, and learn a new web framework (Angular) connected to an external API.",
+        "highlights": [
+          "Angular",
+          "Tailwind",
+          "Typescript"
+        ],
+        "github": "https://github.com/love10aero/mytasker"
+      },
+      {
+        "name": "My Portfolio",
+        "isActive": false,
+        "description": "Created my own portfolio website to display my projects and skills, and learn a new web framework (Astro).",
+        "highlights": [
+          "Astro"
+        ],
+        "github": "https://github.com/love10aero/myportfolio"
+      },
+      {
         "name": "Classpip",
         "isActive": false,
         "description": "Participated in a project to improve the functionality of a gamification tool",

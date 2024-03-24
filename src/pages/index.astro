@@ -9,8 +9,6 @@ import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/SoftSkills.astro"
 import ProgrammingSkills from "@/components/sections/ProgrammingSkills.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
-import Sidebar from "@/components/Sidebar.astro"
-import i18n from '../locales/en.json';
 
 import { basics } from "@cv"
 import { translate } from "./i8n";
@@ -30,6 +28,7 @@ const portf = translate('en', 'portfolioof.title', { name })
     <Experience />
     <Projects />
     <Education /> 
+    <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="lovejindersingh" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://es.linkedin.com/in/lovejindersingh?trk=profile-badge">Lovejinder S.</a></div>
   </main>
 
   <KeyboardManager />
