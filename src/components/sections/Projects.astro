@@ -10,13 +10,13 @@ import i18n from '../../locales/en.json';
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ description, highlights, name, isActive, github }) => {
           return (
             <li>
               <article>
                 <header>
                   <h3>
-                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                    <a target="_blank">
                       {name}
                     </a>
                     {isActive && <span>•</span>}
