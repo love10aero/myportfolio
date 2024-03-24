@@ -73,11 +73,11 @@
     ],
     "education": [
       {
-        "institution": "Universitat Politècnica de Catalunya",
-        "area": "BSc Air Navigation Engineering",
-        "studyType": "Bachelor",
-        "startDate": "2015-08-01",
-        "endDate": "2019-02-01"
+        "institution": " Nuclio Digital School, Barcelona",
+        "area": "Master in Data Science & AI",
+        "studyType": "Master",
+        "startDate": "2022-09-01",
+        "endDate": "2023-03-01"
       },
       {
         "institution": "Universitat Politècnica de Catalunya",
@@ -87,11 +87,11 @@
         "endDate": "2021-05-01"
       },
       {
-        "institution": " Nuclio Digital School, Barcelona",
-        "area": "Master in Data Science & AI",
-        "studyType": "Master",
-        "startDate": "2022-09-01",
-        "endDate": "2023-03-01"
+        "institution": "Universitat Politècnica de Catalunya",
+        "area": "BSc Air Navigation Engineering",
+        "studyType": "Bachelor",
+        "startDate": "2015-08-01",
+        "endDate": "2019-02-01"
       }
     ],
     "projects": [
