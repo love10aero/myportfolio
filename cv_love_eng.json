@@ -95,10 +95,30 @@
       }
     ],
     "projects": [
-        {
+      {
+        "name": "Classpip",
+        "isActive": true,
+        "description": "Improved functionalities of a gamification tool: Implemented features for student trading card exchange and online exam system using Angular.",
+        "highlights": [
+          "Angular",
+          "Typescript"
+        ],
+        "github": "https://github.com/classpip/classpip"
+      },
+      {
+        "name": "PdM Algorithm",
+        "isActive": true,
+        "description": "Innovative project predicts aircraft defects, reducing maintenance costs and extending lifespan. Utilizes diverse machine learning models and data integration obtaining 65% accuracy.",
+        "highlights": [
+          "Machine Learning",
+          "Neural Networks",
+          "Predictive Analytics"
+        ]
+      },
+      {
         "name": "DineDash",
         "isActive": true,
-        "description": "Developed a restaurant management software with a robust Express.js API backend and a dynamic React.js frontend.",
+        "description": "Restaurant management software with Express.js API backend and React frontend. Currently utilized in my family restaurant to centralize operations and eliminate the need for multiple spreadsheets.",
         "highlights": [
           "Backend & FrontEnd development",
           "Express & React",
@@ -108,57 +128,35 @@
         "github": "https://github.com/love10aero/dinedash"
       },
       {
-        "name": "My Tasker",
+        "name": "URL Shortener",
         "isActive": true,
-        "description": "Created an app to manage my tasks, and learn a new web framework (Angular) connected to an external API.",
+        "description": "Created a URL shortener application using FastAPI to gain proficiency in the framework.",
         "highlights": [
-          "Angular",
-          "Tailwind",
-          "Typescript"
-        ],
-        "github": "https://github.com/love10aero/mytasker"
-      },
-      {
-        "name": "My Portfolio",
-        "isActive": false,
-        "description": "Created my own portfolio website to display my projects and skills, and learn a new web framework (Astro).",
-        "highlights": [
-          "Astro"
-        ],
-        "github": "https://github.com/love10aero/myportfolio"
-      },
-      {
-        "name": "Classpip",
-        "isActive": false,
-        "description": "Participated in a project to improve the functionality of a gamification tool",
-        "highlights": [
-          "Angular",
-          "Typescript"
-        ],
-        "github": "https://github.com/classpip/classpip"
-      },
-      {
-        "name": "Aircraft Defect Prediction",
-        "isActive": false,
-        "description": "Innovative project predicts aircraft defects, reducing maintenance costs and extending lifespan. Utilizes diverse machine learning models and data integration for 85% accuracy.",
-        "highlights": [
-          "Machine Learning",
-          "Neural Networks",
-          "Predictive Analytics"
+          "FastAPI",
+          "Python"
         ]
       },
       {
-        "name": "Basic Flutter App",
-        "isActive": false,
-        "description": "Developed a basic Flutter app connected to a Django API",
+        "name": "DuoTasks",
+        "isActive": true,
+        "description": "Developed the backend of DuoTasks, an app designed for task assignment between couples. Implemented GraphQL to facilitate efficient data querying and management.",
         "highlights": [
-          "Flutter",
-          "Django"
-        ],
-        "github": "https://github.com/love10aero/love_flutter_app"
+          "GraphQL",
+          "Backend Development"
+        ]
+      },
+      {
+        "name": "Clash of Quiz",
+        "isActive": true,
+        "description": "Currently developing an app like Kahoot. Incorporating AI-generated questions and live answering using WebSockets. Working on a microservice for ML model to generate questions based on specific topics.",
+        "highlights": [
+          "Django",
+          "React",
+          "WebSockets",
+          "AI",
+          "Microservices"
+        ]
       }
-      
-      
     ],
     "skills": [
       {
